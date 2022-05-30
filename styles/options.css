@@ -1,0 +1,43 @@
+body {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.options {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.disabled-element {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.block {
+  margin-bottom: .5em;
+}
+
+#error {
+  margin-top: 0em;
+  padding-top: 0em;
+  font-style: italic;
+  color: red;
+}
+
+#blacklist {
+  width: 400;
+}
+
+#new-text {
+  width: 250;
+}
+
+#remove {
+  vertical-align: top;
+}
+
+#sync-warning {
+  margin-top: 0em;
+  padding-top: 0em;
+  font-size: .8em;
+  font-style: italic;
+  color: gray;
+}

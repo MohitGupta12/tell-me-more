@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #00AF8B;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.branding {
+  color: white;
+  width: 100%;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+}
+
+.signature {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 3px;
+}
+
+.logo-first-char {
+  font-family: 'Museo', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: -1px;
+}
+
+.logo {
+  font-family: 'Voces', sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+#blacklist-link {
+  color: white;
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+}

@@ -1,0 +1,122 @@
+/* Styles for context pane */
+.hover-pane {
+    border-style: solid;
+    border-width: 2px;
+    /* BLUE border-color: #22a7f0;*/
+    /* GREEN */
+    border-color: #00AF8B;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 15px #888888;
+    background-color: white;
+    width: 400px;
+    position:absolute;
+
+    /* The z-index must be comically large because this is an extension.
+       The largest z-index of the page that is being augmented is unknown, so int max
+       is used to be safe. */
+    z-index:2147483647;
+}
+
+.hover-pane iframe {
+  border:0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: block;
+}
+
+.pane-body {
+  height: 0px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+}
+
+.pane-branding {
+  position: relative;
+}
+
+.context-first-char {
+  /*
+  HOVERCARD
+  box-shadow: 0px 0px 10px black;
+  background-color: white;
+  color: gray;
+  padding: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 2px;*/
+
+
+
+  font-family: 'Museo', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin-right: -2px;
+}
+.context-logo {
+  font-family: 'Voces', sans-serif;
+  font-size: 1.2em;
+  text-transform: lowercase;
+
+
+  /* zero out some values so that host pages can't affect them */
+  line-height: normal;
+}
+
+.pane-content {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.pane-content img {
+  float: right;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.pane-content h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  float:left;
+}
+
+.pane-content p {
+  margin-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
+}
+
+.branding-attribution {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.branding-blacklist-link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.error {
+  color:gray;
+  font-style: italic;
+  font-size: .9em;
+}
+
+.cardstack-highlight {
+  background-color:#FFFF00;
+}
+
+.cardstack-highlight:hover {
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+.tutorial-blacklist p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

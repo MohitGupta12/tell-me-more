@@ -1,0 +1,30 @@
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/museo_500_macroman/Museo500-Regular-webfont.eot');
+    src: url('../fonts/museo_500_macroman/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo_500_macroman/Museo500-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/museo_500_macroman/Museo500-Regular-webfont.woff') format('woff'),
+         url('../fonts/museo_500_macroman/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/museo_500_macroman/Museo500-Regular-webfont.svg#museo500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Voces';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Voces'), local('Voces-Regular'), url(https://fonts.gstatic.com/s/voces/v4/JozN20EhXqWGzsF-OMFYBg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
